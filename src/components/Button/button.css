@@ -1,0 +1,27 @@
+button {
+    border: none;
+    padding: 0.5em 2em;
+    border-radius: 2em;
+    color: var(--white);
+    cursor: pointer;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+button:focus {
+    outline-color: transparent;
+}
+
+.button-primary {
+    background-color: var(--bg-money);
+    margin-right: 3em;
+}
+.button-primary:hover {
+    background-color: var(--bg-money_hover);
+}
+
+.button-secondary {
+    background-color: var(--bg-secondary);
+}
+.button-secondary:hover {
+    background-color: var(--bg-secondary_hover);
+}

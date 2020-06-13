@@ -1,0 +1,37 @@
+.copy-amount {
+    font: weight 500;
+    font-size: 1em;
+    color: var(--gray-copy);
+    text-align: center;
+}
+
+.amount {
+    padding: 0 2em 0 0;
+    box-shadow: var(--shadow);
+    border-radius: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.money {
+    font-weight: 500;
+    background-color: var(--bg-money);
+    padding: 0.5em 1em 0.5em 1.5em;
+    border-radius: 2em 0 0em 02em;
+    color: var(--white);
+}
+
+span {
+    content: "";
+    border-right: 1.5em solid var(--white);
+    border-top: 0px solid transparent;
+    border-bottom: 36px solid var(--bg-money);
+    margin-right: 0.5em;
+}
+
+.quantity {
+    font-weight: 500;
+    font-size: 1.3em;
+    color: var(--gray-copy);
+}
